@@ -7,6 +7,8 @@ notes:
 improvements:
     - _get_request_group should support pattern matching for url matching
     - support for multiple backoff strategies
+    - take multithreading into account
+    - redis support for multi-instance rate limiting?
 '''
 import time
 import requests
